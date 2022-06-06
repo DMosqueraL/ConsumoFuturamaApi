@@ -2,26 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
-## Development server
+## Descripción del Proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+se visualiza en pantalla los personajes de la serie animada Futurama. En cada tarjeta (card) se muestra la imagen del personaje, nombre (Name), especie (Specie) y planeta (Planet). Hay más información en la API pero por objetos de demostración del proyecto se tomaron éstos para hacer una descripción de cada personaje.
 
-## Code scaffolding
+![image](https://user-images.githubusercontent.com/97240171/172184994-32e54f07-bae6-473a-9623-f74cc66c090b.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Se puede apreciar:
 
-## Build
+![image](https://user-images.githubusercontent.com/97240171/172185482-1d830833-ab46-4438-81d3-ef6576776039.png)
+![image](https://user-images.githubusercontent.com/97240171/172185741-8aba293c-9a02-4fb7-96c6-5956c7a9aa6a.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Cuando se pasa el mouse por encima de cada tarjeta, éstas tienen efecto que resalta la misma
+![image](https://user-images.githubusercontent.com/97240171/172186092-f65354fc-092e-4b1f-90dd-b82ba9245365.png)
 
-## Running unit tests
+Además, se cuenta con el efecto de zoom para resaltar aún más la tarjeta en la que se encuentra o pasa.
+![image](https://user-images.githubusercontent.com/97240171/172186504-053311c5-6200-4a12-8a6d-148eab53d9d3.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Muchas Gracias ^_^
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+@Autor: Doris Mosquera Lozano
