@@ -4,8 +4,8 @@
   border: 2px solid;
   border-radius: 10px;
   color: rgb(181, 176, 176);
-  width: 270px;
-  height: 460px;
+  width: 250px;
+  height: 480px;
   box-shadow: 2px 2px 2px white;
 
 }
@@ -17,5 +17,6 @@ img{
 
 
 .card:hover{
-  box-shadow: 0 0 50px rgb(7, 173, 239)
+  box-shadow: 0 0 50px rgb(7, 173, 239);
+  zoom: 1.1;
 }
