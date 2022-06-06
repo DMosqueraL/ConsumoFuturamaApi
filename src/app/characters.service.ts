@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import { CharacterInterface } from './characterInterface';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +15,7 @@ export class CharactersService {
     this.baseUrl ='https://futuramaapi.herokuapp.com/api/v2/characters';
   }
 
-  getDetails(){
-    return this.http.get<CharacterInterface[]>(`${this.baseUrl}`);
+  getDetails(): Observable<CharacterInterface[]>{
+        return this.http.get<CharacterInterface[]>(`${this.baseUrl}`);
   }
 }
