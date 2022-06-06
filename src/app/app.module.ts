@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CharactersComponent } from './characters/characters.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CharactersComponent
+    CharactersComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
