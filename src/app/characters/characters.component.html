@@ -1,16 +1,17 @@
 <div class="container">
   <div class="row justify-content-center mt-2">
     <div class="col-3" *ngFor="let character of characters">
-      <div class="card mt-2 mb-2">
+      <div class="card mt-2 mb-3">
         <img
           [src]="character.PicUrl"
           class="img-fluid"
           alt="{{ character.Name }}"
         />
+        <br>
         <div class="card-body">
-          <h5 class="card-title">Name: <i>{{ character.Name }}</i></h5>
-          <h5 class="card-title">Specie: <i>{{ character.Species }}</i></h5>
-          <h5 class="card-title">Planet: <i>{{ character.Planet }}</i></h5>
+          <h5 class="card-title">Name: <u><em>{{ character.Name }}</em></u></h5>
+          <h5 class="card-title">Specie: <u><em>{{ character.Species }}</em></u></h5>
+          <h5 class="card-title">Planet: <u><em>{{ character.Planet }}</em></u></h5>
         </div>
       </div>
     </div>
